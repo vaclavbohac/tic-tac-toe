@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-const InfoTable = (activePlayer) => (
+const InfoTable = ({ activePlayer }) => (
     <div>
         Current player: <span>{activePlayer}</span>
     </div>
